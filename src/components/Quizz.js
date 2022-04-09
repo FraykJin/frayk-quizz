@@ -172,6 +172,7 @@ function Quizz() {
           <FontAwesomeIcon className="github-icon" icon={faGithub} size="2x" />
         </a>
       </footer>
+      <p className="social-p">Don't hesitate to check it !</p>
       <div className="deco-bas"></div>
     </div>
   );
