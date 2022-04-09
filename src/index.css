@@ -179,18 +179,17 @@ hr {
   background-color: lightgreen;
 }
 
-.lol {
+/* .lol {
   color: rgb(47, 5, 47);
   font-size: larger;
-}
+} */
 
 .boutons {
   display: flex;
   background-color: white;
   /* border: solid; */
   width: 400px;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-around;
 }
 
 .boutons > h3 {
@@ -198,6 +197,7 @@ hr {
   font-size: 16px;
   text-align: center;
   color: mediumseagreen;
+  padding-top: 10px;
 }
 
 .button-replay {
@@ -213,4 +213,8 @@ hr {
   box-shadow: 1px 1px 4px 0px rgb(47, 5, 47);
   cursor: pointer;
   margin-top: 10px;
+}
+
+#again {
+  background-color: mediumseagreen;
 }

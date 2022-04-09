@@ -1,4 +1,3 @@
-import { isValidInputTimeValue } from "@testing-library/user-event/dist/utils";
 import React, { useState, useEffect } from "react";
 import Question from "./Question";
 
@@ -102,7 +101,6 @@ function Quizz() {
         });
       });
       setCount(compteur);
-      console.log("nombre de bonne rep", compteur);
       setListAnswers(tab);
 
       setQuestions(
@@ -135,8 +133,8 @@ function Quizz() {
 
       {endGame ? (
         <div className="boutons">
-          <button className="button-check" onClick={checkAnswer}>
-            Check more
+          <button id="again" className="button-check" onClick={checkAnswer}>
+            Click again
           </button>
           <button className="button-replay" onClick={() => setReplay(true)}>
             Replay

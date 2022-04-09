@@ -1,0 +1,64 @@
+@media (max-width: 500px) {
+  .App {
+    width: auto;
+    height: 600px;
+  }
+
+  .quizz-page {
+    width: 500px;
+    margin-top: 0px;
+    height: 600px;
+  }
+
+  .question-list {
+    width: 360px;
+  }
+
+  .question > h2 {
+    font-size: 11px;
+    margin-bottom: 4px;
+  }
+
+  .answer-list {
+    gap: 10px;
+  }
+
+  .answer-list > .answer {
+    font-size: 8px;
+    padding: 4px;
+  }
+
+  .deco-haut {
+    width: 0px;
+    height: 0px;
+  }
+
+  .deco-bas {
+    width: 50px;
+    height: 45px;
+  }
+
+  hr {
+    margin-top: 7px;
+  }
+
+  .button-check {
+    width: 70px;
+    height: 25px;
+    font-size: 10px;
+  }
+
+  .button-replay {
+    width: 70px;
+    height: 25px;
+    font-size: 10px;
+    align-self: center;
+  }
+
+  .boutons {
+    width: 200px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+  }
+}
