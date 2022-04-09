@@ -1,5 +1,11 @@
 import React, { useState, useEffect } from "react";
 import Question from "./Question";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faLinkedin,
+  faInstagram,
+  faGithub,
+} from "@fortawesome/free-brands-svg-icons";
 
 function Quizz() {
   //array questions avec un ajout answers = toutes les reponses
@@ -147,6 +153,25 @@ function Quizz() {
         </button>
       )}
 
+      <footer id="social-mobile" className="social-icons">
+        <a href="https://www.instagram.com/fraykjin/">
+          <FontAwesomeIcon
+            className="instagram-icon"
+            icon={faInstagram}
+            size="2x"
+          />
+        </a>
+        <a href="https://www.linkedin.com/in/yang-kang-jin">
+          <FontAwesomeIcon
+            className="linkedin-icon"
+            icon={faLinkedin}
+            size="2x"
+          />
+        </a>
+        <a href="https://github.com/FraykJin">
+          <FontAwesomeIcon className="github-icon" icon={faGithub} size="2x" />
+        </a>
+      </footer>
       <div className="deco-bas"></div>
     </div>
   );

@@ -51,7 +51,7 @@
   }
 
   .button-replay {
-    width: 70px;
+    width: 60px;
     height: 40px;
     font-size: 10px;
     align-self: center;
@@ -59,6 +59,7 @@
 
   .boutons {
     width: 200px;
+
     align-items: center;
     align-content: center;
     text-align: center;
@@ -67,4 +68,11 @@
   #choosed {
     background-color: lightgoldenrodyellow;
   }
+
+  #social-mobile {
+    position: relative;
+    top: 40px;
+  }
 }
+
+/* tablette ?? */

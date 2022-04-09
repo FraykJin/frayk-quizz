@@ -10,6 +10,45 @@
   background-color: lightblue;
 }
 
+.social-icons {
+  /* position: absolute; */
+
+  /* border: solid; */
+  background-color: white;
+  width: 180px;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  /* border: solid; */
+  align-items: center;
+  margin-top: 20px;
+  /* margin-bottom: 20px; */
+}
+
+.social-icons > a {
+  background-color: white;
+  color: blue;
+}
+
+.linkedin-icon {
+  color: rgb(10, 102, 194);
+}
+.github-icon {
+  color: #211f1f;
+}
+
+.instagram-icon {
+  color: lightcoral;
+}
+svg {
+  color: rgb(11, 36, 111);
+  background-color: white;
+}
+
+svg:hover {
+  color: mediumspringgreen;
+}
+
 /* STARTING PAGE QUIZZ */
 .start-page,
 .quizz-page {
@@ -47,7 +86,7 @@
 
 .start-page > h1 {
   margin-bottom: 20px;
-  color: lightseagreen;
+  color: #211f1f;
   text-shadow: 1px 1px 1px black;
   background-color: white;
 }
@@ -84,7 +123,7 @@
 /* Question Style*/
 
 .question {
-  margin: 0 10px 30px 0;
+  margin: 0 10px 20px 0;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -160,7 +199,6 @@ hr {
   font-weight: 500;
   box-shadow: 1px 1px 4px 0px rgb(47, 5, 47);
   cursor: pointer;
-  margin-top: 10px;
 }
 
 .button-check:hover {
@@ -190,6 +228,7 @@ hr {
   /* border: solid; */
   width: 400px;
   justify-content: space-around;
+  align-items: center;
 }
 
 .boutons > h3 {
@@ -212,9 +251,13 @@ hr {
   font-weight: 500;
   box-shadow: 1px 1px 4px 0px rgb(47, 5, 47);
   cursor: pointer;
-  margin-top: 10px;
+  /* margin-top: 10px; */
 }
 
 #again {
   background-color: mediumseagreen;
+}
+
+.social-p {
+  font-family: "Grape Nuts", cursive;
 }
