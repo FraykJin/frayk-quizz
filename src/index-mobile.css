@@ -11,8 +11,12 @@
   }
 
   .question > h2 {
-    font-size: 11px;
+    font-size: 14px;
     margin-bottom: 4px;
+  }
+
+  .answer:hover {
+    background-color: lightgoldenrodyellow;
   }
 
   .answer-list {
@@ -20,8 +24,10 @@
   }
 
   .answer-list > .answer {
-    font-size: 8px;
+    font-size: 10px;
     padding: 4px;
+    /* font-weight: 600; */
+    color: black;
   }
 
   .deco-haut {
@@ -40,13 +46,13 @@
 
   .button-check {
     width: 70px;
-    height: 25px;
+    height: 40px;
     font-size: 10px;
   }
 
   .button-replay {
     width: 70px;
-    height: 25px;
+    height: 40px;
     font-size: 10px;
     align-self: center;
   }
@@ -56,5 +62,9 @@
     align-items: center;
     align-content: center;
     text-align: center;
+  }
+
+  #choosed {
+    background-color: lightgoldenrodyellow;
   }
 }
